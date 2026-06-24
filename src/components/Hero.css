@@ -1,0 +1,45 @@
+.hero {
+  position: relative;
+  z-index: 10;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 0 8vw;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-greeting {
+  font-family: monospace;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.08em;
+}
+
+.hero-name {
+  font-family: monospace;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  letter-spacing: -0.03em;
+}
+
+.hero-tagline {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.hero-tagline p {
+  font-family: monospace;
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0;
+  letter-spacing: 0.01em;
+}

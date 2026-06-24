@@ -1,0 +1,65 @@
+.about {
+  position: relative;
+  z-index: 10;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 280px 8vw;
+}
+
+.about-label {
+  font-family: monospace;       /*c4*/
+  font-size: 40px;              /*c3*/
+  letter-spacing: 0.40em;       /*c2*/
+  color: white; 
+  text-transform: uppercase;    /*c5*/
+  margin-bottom: 150px;         /*c1*/
+  text-align: center;
+}
+
+.about-content {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-heading {
+  font-family: monospace;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.about-body {
+  font-family: monospace;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+.morebtn {
+  margin-top: 50px;
+}
+
+.morebtn button {
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.5);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 8px 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.morebtn button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.4);
+}

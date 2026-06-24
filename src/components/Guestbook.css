@@ -1,0 +1,154 @@
+
+.guestbook-inner {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;        
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.guestbook {
+  position: relative;
+  z-index: 10;
+  padding: 120px 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  gap: 32px;
+}
+
+.guestbook-label {
+  font-family: monospace;
+  font-size: 40px;
+  margin-bottom: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.guestbook-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.gb-input {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-family: monospace;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.gb-input::placeholder {
+  color: rgba(255, 255, 255, 0.644);
+}
+
+.gb-input:focus {
+  border-color: rgb(255, 255, 255);  /*c click color */
+}
+
+.gb-btn {
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.597);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+
+.gb-btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.gb-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.guestbook-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.gb-empty {
+  font-family: monospace;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.gb-entry {
+  /*display: flex;*/
+  gap: 10px;
+  font-family: monospace;
+  font-size: 13px;
+  align-items: baseline;
+  border: 2px solid rgba(255, 255, 255, 0.345);
+  border-radius: 12px;
+}
+
+.gb-name {
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+}
+
+.gb-divider {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.gb-message {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.6;
+}
+.gb-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  font-family: monospace;
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s ease;
+}
+
+.gb-entry:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.gb-name {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.gb-divider {
+  display: none;
+}
+
+.gb-message {
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.6;
+}
+.guestbook-text{
+  color: white;
+  padding:0;
+}

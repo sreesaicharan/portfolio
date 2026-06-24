@@ -1,0 +1,91 @@
+.me-content {
+  position: relative;
+  z-index: 10;
+  padding: 100px 8vw;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.me-heading {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  text-align: center;
+}
+
+.me-para {
+  font-family: monospace;
+  font-size: 1.3rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+.me-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.me-label-lc{  
+  font-family: monospace;
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:#FFA116;
+}
+.me-label-chess{  
+  font-family: monospace;
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:#0b9427;
+}
+.me-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  position: relative;
+}
+
+.me-content a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.me-content a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.me-back {
+  position: fixed;
+  top: 32px;
+  left: 8vw;
+  z-index: 50;
+  font-family: monospace;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.me-back:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
