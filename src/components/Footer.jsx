@@ -24,7 +24,6 @@ export function Footer() {
           <Mail size={22} strokeWidth={1.5} />
         </a>
       </div>
-      <p className="footer-copy">© 2025 Sai Charan</p>
     </footer>
   )
 }
