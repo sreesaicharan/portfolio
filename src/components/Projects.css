@@ -86,3 +86,23 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.4);
 }
+.livedemo{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3px 10px;
+  border-radius: 10px;
+  width: fit-content;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.livedemo a {
+  font-family: monospace;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.livedemo a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
