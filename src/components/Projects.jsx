@@ -8,14 +8,14 @@ const projects = [
     description: "Personal portfolio built with React and vanilla CSS. Features a live shader background, Chess.com and LeetCode stats via public APIs, and a guestbook.",
     tags: ["React", "CSS", "GraphQL"],
     repo: "https://github.com/sreesaicharan/portfolio",
-    livedemo:"sai",
+    livedemo: "https://saicharan-40t.pages.dev",
   },
   {
-    name:"DSA-visualizer",
-    description:"The main motive for me to build this is to learn DSA more deep with visuals , can track and dry run every data structure with all necessary details and constrains of the problem",
-    tags:["react","css","Framer"],
-    repo:"https://github.com/sreesaicharan/ds-visual",
-    livedemo:"ds-visual.pages.dev"
+    name: "DSA-visualizer",
+    description: "The main motive for me to build this is to learn DSA more deep with visuals, can track and dry run every data structure with all necessary details and constrains of the problem",
+    tags: ["React", "CSS", "Framer"],
+    repo: "https://github.com/sreesaicharan/ds-visual",
+    livedemo: "https://ds-visual.pages.dev"
   }
 ]
 
